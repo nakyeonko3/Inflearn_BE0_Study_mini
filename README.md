@@ -22,19 +22,27 @@
 ## 실행 방법
 
 1. 프로젝트를 클론
-   $ git clone https://github.com/backgom1/Inflearn_BE0_Study_mini.git
+```
+git clone https://github.com/backgom1/Inflearn_BE0_Study_mini.git
+```
 
 2. 프로젝트 디렉토리로 이동
-   $ cd Inflearn_BE0_Study_mini
+```
+cd Inflearn_BE0_Study_mini
+```
 
 3. 의존성을 설치합니다.
-   $ ./gradlew build
+```
+./gradlew build
+```
 
 4. 서버를 실행합니다.
-   $ ./gradlew bootRun
+```
+./gradlew bootRun
+```
 
-5. 브라우저에서 다음 URL로 접속합니다.
-   http://localhost:8080
+5. 브라우저에서 다음 URL로 접속합니다.</br>
+http://localhost:8080
 
 ## 요구사항
 
@@ -176,6 +184,8 @@ employee테이블과 team테이블을 생성하는 ddl문을 작성했다.
 ---
 
 ## 프로젝트 개선 사항
+
+- API 문서화 필요
 
 - count 함수를 이용해서 팀 인원수를 구할 수 있으니, 팀 인원 수를 DB에 굳이 저장을 할 필요가 없다.
 
